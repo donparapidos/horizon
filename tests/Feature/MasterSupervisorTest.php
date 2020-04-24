@@ -1,20 +1,20 @@
 <?php
 
-namespace Vzool\Horizon\Tests\Feature;
+namespace Donparapidos\Horizon\Tests\Feature;
 
 use Mockery;
-use Vzool\Horizon\PhpBinary;
+use Donparapidos\Horizon\PhpBinary;
 use Illuminate\Support\Facades\Redis;
-use Vzool\Horizon\MasterSupervisor;
-use Vzool\Horizon\SupervisorOptions;
-use Vzool\Horizon\SupervisorProcess;
-use Vzool\Horizon\WorkerCommandString;
-use Vzool\Horizon\Tests\IntegrationTest;
-use Vzool\Horizon\Contracts\HorizonCommandQueue;
-use Vzool\Horizon\Contracts\MasterSupervisorRepository;
-use Vzool\Horizon\MasterSupervisorCommands\AddSupervisor;
-use Vzool\Horizon\Tests\Feature\Fixtures\EternalSupervisor;
-use Vzool\Horizon\Tests\Feature\Fixtures\SupervisorProcessWithFakeRestart;
+use Donparapidos\Horizon\MasterSupervisor;
+use Donparapidos\Horizon\SupervisorOptions;
+use Donparapidos\Horizon\SupervisorProcess;
+use Donparapidos\Horizon\WorkerCommandString;
+use Donparapidos\Horizon\Tests\IntegrationTest;
+use Donparapidos\Horizon\Contracts\HorizonCommandQueue;
+use Donparapidos\Horizon\Contracts\MasterSupervisorRepository;
+use Donparapidos\Horizon\MasterSupervisorCommands\AddSupervisor;
+use Donparapidos\Horizon\Tests\Feature\Fixtures\EternalSupervisor;
+use Donparapidos\Horizon\Tests\Feature\Fixtures\SupervisorProcessWithFakeRestart;
 
 class MasterSupervisorTest extends IntegrationTest
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Vzool\Horizon\Tests\Feature\Jobs;
+namespace Donparapidos\Horizon\Tests\Feature\Jobs;
 
 class LegacyJob
 {

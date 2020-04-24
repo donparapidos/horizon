@@ -1,9 +1,9 @@
 <?php
 
-namespace Vzool\Horizon\Console;
+namespace Donparapidos\Horizon\Console;
 
 use Illuminate\Console\Command;
-use Vzool\Horizon\Contracts\SupervisorRepository;
+use Donparapidos\Horizon\Contracts\SupervisorRepository;
 
 class SupervisorsCommand extends Command
 {

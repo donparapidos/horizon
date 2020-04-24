@@ -1,6 +1,6 @@
 <?php
 
-namespace Vzool\Horizon\Tests;
+namespace Donparapidos\Horizon\Tests;
 
 use Mockery;
 use PHPUnit\Framework\TestCase;

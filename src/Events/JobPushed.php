@@ -1,6 +1,6 @@
 <?php
 
-namespace Vzool\Horizon\Events;
+namespace Donparapidos\Horizon\Events;
 
 class JobPushed extends RedisEvent
 {

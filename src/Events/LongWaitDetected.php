@@ -1,8 +1,8 @@
 <?php
 
-namespace Vzool\Horizon\Events;
+namespace Donparapidos\Horizon\Events;
 
-use Vzool\Horizon\Notifications\LongWaitDetected as LongWaitDetectedNotification;
+use Donparapidos\Horizon\Notifications\LongWaitDetected as LongWaitDetectedNotification;
 
 class LongWaitDetected
 {
@@ -45,7 +45,7 @@ class LongWaitDetected
     /**
      * Get a notification representation of the event.
      *
-     * @return \Vzool\Horizon\Notifications\LongWaitDetected
+     * @return \Donparapidos\Horizon\Notifications\LongWaitDetected
      */
     public function toNotification()
     {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Vzool\Horizon;
+namespace Donparapidos\Horizon;
 
-use Vzool\Horizon\Contracts\HorizonCommandQueue;
+use Donparapidos\Horizon\Contracts\HorizonCommandQueue;
 use Illuminate\Contracts\Redis\Factory as RedisFactory;
 
 class RedisHorizonCommandQueue implements HorizonCommandQueue

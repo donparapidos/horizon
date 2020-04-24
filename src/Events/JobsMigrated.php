@@ -1,8 +1,8 @@
 <?php
 
-namespace Vzool\Horizon\Events;
+namespace Donparapidos\Horizon\Events;
 
-use Vzool\Horizon\JobPayload;
+use Donparapidos\Horizon\JobPayload;
 
 class JobsMigrated
 {

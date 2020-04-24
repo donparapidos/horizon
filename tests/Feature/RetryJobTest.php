@@ -1,12 +1,12 @@
 <?php
 
-namespace Vzool\Horizon\Tests\Feature;
+namespace Donparapidos\Horizon\Tests\Feature;
 
-use Vzool\Horizon\Jobs\MonitorTag;
+use Donparapidos\Horizon\Jobs\MonitorTag;
 use Illuminate\Support\Facades\Queue;
 use Illuminate\Support\Facades\Redis;
-use Vzool\Horizon\Jobs\RetryFailedJob;
-use Vzool\Horizon\Tests\IntegrationTest;
+use Donparapidos\Horizon\Jobs\RetryFailedJob;
+use Donparapidos\Horizon\Tests\IntegrationTest;
 
 class RetryJobTest extends IntegrationTest
 {

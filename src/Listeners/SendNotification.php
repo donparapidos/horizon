@@ -1,9 +1,9 @@
 <?php
 
-namespace Vzool\Horizon\Listeners;
+namespace Donparapidos\Horizon\Listeners;
 
-use Vzool\Horizon\Lock;
-use Vzool\Horizon\Horizon;
+use Donparapidos\Horizon\Lock;
+use Donparapidos\Horizon\Horizon;
 use Illuminate\Support\Facades\Notification;
 
 class SendNotification

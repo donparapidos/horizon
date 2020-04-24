@@ -1,22 +1,22 @@
 <?php
 
-namespace Vzool\Horizon\Events;
+namespace Donparapidos\Horizon\Events;
 
-use Vzool\Horizon\Supervisor;
+use Donparapidos\Horizon\Supervisor;
 
 class SupervisorLooped
 {
     /**
      * The supervisor instance.
      *
-     * @var \Vzool\Horizon\Supervisor
+     * @var \Donparapidos\Horizon\Supervisor
      */
     public $supervisor;
 
     /**
      * Create a new event instance.
      *
-     * @param  \Vzool\Horizon\Supervisor  $supervisor
+     * @param  \Donparapidos\Horizon\Supervisor  $supervisor
      * @return void
      */
     public function __construct(Supervisor $supervisor)

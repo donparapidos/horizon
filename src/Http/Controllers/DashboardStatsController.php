@@ -1,12 +1,12 @@
 <?php
 
-namespace Vzool\Horizon\Http\Controllers;
+namespace Donparapidos\Horizon\Http\Controllers;
 
-use Vzool\Horizon\WaitTimeCalculator;
-use Vzool\Horizon\Contracts\JobRepository;
-use Vzool\Horizon\Contracts\MetricsRepository;
-use Vzool\Horizon\Contracts\SupervisorRepository;
-use Vzool\Horizon\Contracts\MasterSupervisorRepository;
+use Donparapidos\Horizon\WaitTimeCalculator;
+use Donparapidos\Horizon\Contracts\JobRepository;
+use Donparapidos\Horizon\Contracts\MetricsRepository;
+use Donparapidos\Horizon\Contracts\SupervisorRepository;
+use Donparapidos\Horizon\Contracts\MasterSupervisorRepository;
 
 class DashboardStatsController extends Controller
 {

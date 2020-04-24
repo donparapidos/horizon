@@ -1,9 +1,9 @@
 <?php
 
-namespace Vzool\Horizon\Tests\Feature;
+namespace Donparapidos\Horizon\Tests\Feature;
 
-use Vzool\Horizon\SupervisorOptions;
-use Vzool\Horizon\Tests\IntegrationTest;
+use Donparapidos\Horizon\SupervisorOptions;
+use Donparapidos\Horizon\Tests\IntegrationTest;
 
 class SupervisorOptionsTest extends IntegrationTest
 {

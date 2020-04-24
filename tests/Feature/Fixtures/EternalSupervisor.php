@@ -1,6 +1,6 @@
 <?php
 
-namespace Vzool\Horizon\Tests\Feature\Fixtures;
+namespace Donparapidos\Horizon\Tests\Feature\Fixtures;
 
 class EternalSupervisor
 {

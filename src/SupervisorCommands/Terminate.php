@@ -1,15 +1,15 @@
 <?php
 
-namespace Vzool\Horizon\SupervisorCommands;
+namespace Donparapidos\Horizon\SupervisorCommands;
 
-use Vzool\Horizon\Contracts\Terminable;
+use Donparapidos\Horizon\Contracts\Terminable;
 
 class Terminate
 {
     /**
      * Process the command.
      *
-     * @param  \Vzool\Horizon\Contracts\Terminable  $terminable
+     * @param  \Donparapidos\Horizon\Contracts\Terminable  $terminable
      * @param  array  $options
      * @return void
      */

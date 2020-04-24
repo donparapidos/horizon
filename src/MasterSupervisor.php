@@ -1,20 +1,20 @@
 <?php
 
-namespace Vzool\Horizon;
+namespace Donparapidos\Horizon;
 
 use Closure;
 use Exception;
 use Throwable;
 use Cake\Chronos\Chronos;
 use Illuminate\Support\Str;
-use Vzool\Horizon\Contracts\Pausable;
-use Vzool\Horizon\Contracts\Terminable;
-use Vzool\Horizon\Contracts\Restartable;
+use Donparapidos\Horizon\Contracts\Pausable;
+use Donparapidos\Horizon\Contracts\Terminable;
+use Donparapidos\Horizon\Contracts\Restartable;
 use Illuminate\Contracts\Debug\ExceptionHandler;
-use Vzool\Horizon\Contracts\HorizonCommandQueue;
-use Vzool\Horizon\Events\MasterSupervisorLooped;
-use Vzool\Horizon\Contracts\SupervisorRepository;
-use Vzool\Horizon\Contracts\MasterSupervisorRepository;
+use Donparapidos\Horizon\Contracts\HorizonCommandQueue;
+use Donparapidos\Horizon\Events\MasterSupervisorLooped;
+use Donparapidos\Horizon\Contracts\SupervisorRepository;
+use Donparapidos\Horizon\Contracts\MasterSupervisorRepository;
 use Symfony\Component\Debug\Exception\FatalThrowableError;
 
 class MasterSupervisor implements Pausable, Restartable, Terminable

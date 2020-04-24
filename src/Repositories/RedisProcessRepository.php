@@ -1,9 +1,9 @@
 <?php
 
-namespace Vzool\Horizon\Repositories;
+namespace Donparapidos\Horizon\Repositories;
 
 use Cake\Chronos\Chronos;
-use Vzool\Horizon\Contracts\ProcessRepository;
+use Donparapidos\Horizon\Contracts\ProcessRepository;
 use Illuminate\Contracts\Redis\Factory as RedisFactory;
 
 class RedisProcessRepository implements ProcessRepository

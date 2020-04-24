@@ -1,6 +1,6 @@
 <?php
 
-namespace Vzool\Horizon\Tests\Controller\Fakes;
+namespace Donparapidos\Horizon\Tests\Controller\Fakes;
 
 use Illuminate\Foundation\Auth\User as BaseUser;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Vzool\Horizon\Http\Middleware;
+namespace Donparapidos\Horizon\Http\Middleware;
 
-use Vzool\Horizon\Horizon;
+use Donparapidos\Horizon\Horizon;
 
 class Authenticate
 {

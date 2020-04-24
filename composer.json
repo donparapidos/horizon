@@ -40,12 +40,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Vzool\\Horizon\\": "src/"
+            "Donparapidos\\Horizon\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Vzool\\Horizon\\Tests\\": "tests/"
+            "Donparapidos\\Horizon\\Tests\\": "tests/"
         }
     },
     "extra": {
@@ -54,10 +54,10 @@
         },
         "laravel": {
             "providers": [
-                "Vzool\\Horizon\\HorizonServiceProvider"
+                "Donparapidos\\Horizon\\HorizonServiceProvider"
             ],
             "aliases": {
-                "Horizon": "Vzool\\Horizon\\Horizon"
+                "Horizon": "Donparapidos\\Horizon\\Horizon"
             }
         }
     },

@@ -1,13 +1,13 @@
 <?php
 
-namespace Vzool\Horizon\Tests\Feature;
+namespace Donparapidos\Horizon\Tests\Feature;
 
 use Mockery;
 use Cake\Chronos\Chronos;
-use Vzool\Horizon\Stopwatch;
+use Donparapidos\Horizon\Stopwatch;
 use Illuminate\Support\Facades\Queue;
-use Vzool\Horizon\Tests\IntegrationTest;
-use Vzool\Horizon\Contracts\MetricsRepository;
+use Donparapidos\Horizon\Tests\IntegrationTest;
+use Donparapidos\Horizon\Contracts\MetricsRepository;
 
 class MetricsTest extends IntegrationTest
 {

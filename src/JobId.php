@@ -1,8 +1,8 @@
 <?php
 
-namespace Vzool\Horizon;
+namespace Donparapidos\Horizon;
 
-use Vzool\Horizon\Contracts\JobRepository;
+use Donparapidos\Horizon\Contracts\JobRepository;
 
 class JobId
 {

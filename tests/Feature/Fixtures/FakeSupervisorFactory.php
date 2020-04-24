@@ -1,8 +1,8 @@
 <?php
 
-namespace Vzool\Horizon\Tests\Feature\Fixtures;
+namespace Donparapidos\Horizon\Tests\Feature\Fixtures;
 
-use Vzool\Horizon\Tests\Feature\Fakes\SupervisorWithFakeMonitor;
+use Donparapidos\Horizon\Tests\Feature\Fakes\SupervisorWithFakeMonitor;
 
 class FakeSupervisorFactory
 {

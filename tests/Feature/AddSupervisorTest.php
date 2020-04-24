@@ -1,13 +1,13 @@
 <?php
 
-namespace Vzool\Horizon\Tests\Feature;
+namespace Donparapidos\Horizon\Tests\Feature;
 
-use Vzool\Horizon\PhpBinary;
-use Vzool\Horizon\MasterSupervisor;
-use Vzool\Horizon\SupervisorOptions;
-use Vzool\Horizon\Tests\IntegrationTest;
-use Vzool\Horizon\Contracts\HorizonCommandQueue;
-use Vzool\Horizon\MasterSupervisorCommands\AddSupervisor;
+use Donparapidos\Horizon\PhpBinary;
+use Donparapidos\Horizon\MasterSupervisor;
+use Donparapidos\Horizon\SupervisorOptions;
+use Donparapidos\Horizon\Tests\IntegrationTest;
+use Donparapidos\Horizon\Contracts\HorizonCommandQueue;
+use Donparapidos\Horizon\MasterSupervisorCommands\AddSupervisor;
 
 class AddSupervisorTest extends IntegrationTest
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Vzool\Horizon\Tests\Unit;
+namespace Donparapidos\Horizon\Tests\Unit;
 
-use Vzool\Horizon\Stopwatch;
-use Vzool\Horizon\Tests\UnitTest;
+use Donparapidos\Horizon\Stopwatch;
+use Donparapidos\Horizon\Tests\UnitTest;
 
 class StopwatchTest extends UnitTest
 {

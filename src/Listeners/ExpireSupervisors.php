@@ -1,18 +1,18 @@
 <?php
 
-namespace Vzool\Horizon\Listeners;
+namespace Donparapidos\Horizon\Listeners;
 
 use Cake\Chronos\Chronos;
-use Vzool\Horizon\Events\MasterSupervisorLooped;
-use Vzool\Horizon\Contracts\SupervisorRepository;
-use Vzool\Horizon\Contracts\MasterSupervisorRepository;
+use Donparapidos\Horizon\Events\MasterSupervisorLooped;
+use Donparapidos\Horizon\Contracts\SupervisorRepository;
+use Donparapidos\Horizon\Contracts\MasterSupervisorRepository;
 
 class ExpireSupervisors
 {
     /**
      * Handle the event.
      *
-     * @param  \Vzool\Horizon\Events\MasterSupervisorLooped  $event
+     * @param  \Donparapidos\Horizon\Events\MasterSupervisorLooped  $event
      * @return void
      */
     public function handle(MasterSupervisorLooped $event)

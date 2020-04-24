@@ -1,13 +1,13 @@
 <?php
 
-namespace Vzool\Horizon\Tests\Feature;
+namespace Donparapidos\Horizon\Tests\Feature;
 
 use Mockery;
-use Vzool\Horizon\Supervisor;
-use Vzool\Horizon\SupervisorOptions;
-use Vzool\Horizon\Tests\IntegrationTest;
-use Vzool\Horizon\Events\SupervisorLooped;
-use Vzool\Horizon\Listeners\MonitorSupervisorMemory;
+use Donparapidos\Horizon\Supervisor;
+use Donparapidos\Horizon\SupervisorOptions;
+use Donparapidos\Horizon\Tests\IntegrationTest;
+use Donparapidos\Horizon\Events\SupervisorLooped;
+use Donparapidos\Horizon\Listeners\MonitorSupervisorMemory;
 
 class MonitorSupervisorMemoryTest extends IntegrationTest
 {

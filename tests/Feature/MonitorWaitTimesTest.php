@@ -1,17 +1,17 @@
 <?php
 
-namespace Vzool\Horizon\Tests\Feature;
+namespace Donparapidos\Horizon\Tests\Feature;
 
 use Mockery;
 use Cake\Chronos\Chronos;
-use Vzool\Horizon\Supervisor;
+use Donparapidos\Horizon\Supervisor;
 use Illuminate\Support\Facades\Event;
-use Vzool\Horizon\WaitTimeCalculator;
-use Vzool\Horizon\Tests\IntegrationTest;
-use Vzool\Horizon\Events\LongWaitDetected;
-use Vzool\Horizon\Events\SupervisorLooped;
-use Vzool\Horizon\Listeners\MonitorWaitTimes;
-use Vzool\Horizon\Contracts\MetricsRepository;
+use Donparapidos\Horizon\WaitTimeCalculator;
+use Donparapidos\Horizon\Tests\IntegrationTest;
+use Donparapidos\Horizon\Events\LongWaitDetected;
+use Donparapidos\Horizon\Events\SupervisorLooped;
+use Donparapidos\Horizon\Listeners\MonitorWaitTimes;
+use Donparapidos\Horizon\Contracts\MetricsRepository;
 use Illuminate\Contracts\Redis\Factory as RedisFactory;
 
 class MonitorWaitTimesTest extends IntegrationTest

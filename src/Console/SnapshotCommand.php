@@ -1,10 +1,10 @@
 <?php
 
-namespace Vzool\Horizon\Console;
+namespace Donparapidos\Horizon\Console;
 
-use Vzool\Horizon\Lock;
+use Donparapidos\Horizon\Lock;
 use Illuminate\Console\Command;
-use Vzool\Horizon\Contracts\MetricsRepository;
+use Donparapidos\Horizon\Contracts\MetricsRepository;
 
 class SnapshotCommand extends Command
 {

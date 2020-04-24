@@ -1,9 +1,9 @@
 <?php
 
-namespace Vzool\Horizon\Notifications;
+namespace Donparapidos\Horizon\Notifications;
 
 use Illuminate\Notifications\Messages\MailMessage;
-use Vzool\Horizon\Horizon;
+use Donparapidos\Horizon\Horizon;
 use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Notification;
 use Illuminate\Notifications\Messages\NexmoMessage;

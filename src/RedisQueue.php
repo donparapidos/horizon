@@ -1,13 +1,13 @@
 <?php
 
-namespace Vzool\Horizon;
+namespace Donparapidos\Horizon;
 
 use Illuminate\Support\Str;
-use Vzool\Horizon\Events\JobPushed;
-use Vzool\Horizon\Events\JobDeleted;
-use Vzool\Horizon\Events\JobReleased;
-use Vzool\Horizon\Events\JobReserved;
-use Vzool\Horizon\Events\JobsMigrated;
+use Donparapidos\Horizon\Events\JobPushed;
+use Donparapidos\Horizon\Events\JobDeleted;
+use Donparapidos\Horizon\Events\JobReleased;
+use Donparapidos\Horizon\Events\JobReserved;
+use Donparapidos\Horizon\Events\JobsMigrated;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Queue\RedisQueue as BaseQueue;
 

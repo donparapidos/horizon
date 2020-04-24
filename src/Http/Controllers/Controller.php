@@ -1,8 +1,8 @@
 <?php
 
-namespace Vzool\Horizon\Http\Controllers;
+namespace Donparapidos\Horizon\Http\Controllers;
 
-use Vzool\Horizon\Http\Middleware\Authenticate;
+use Donparapidos\Horizon\Http\Middleware\Authenticate;
 use Illuminate\Routing\Controller as BaseController;
 
 class Controller extends BaseController

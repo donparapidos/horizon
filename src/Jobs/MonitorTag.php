@@ -1,8 +1,8 @@
 <?php
 
-namespace Vzool\Horizon\Jobs;
+namespace Donparapidos\Horizon\Jobs;
 
-use Vzool\Horizon\Contracts\TagRepository;
+use Donparapidos\Horizon\Contracts\TagRepository;
 
 class MonitorTag
 {
@@ -27,7 +27,7 @@ class MonitorTag
     /**
      * Execute the job.
      *
-     * @param  \Vzool\Horizon\Contracts\TagRepository  $tags
+     * @param  \Donparapidos\Horizon\Contracts\TagRepository  $tags
      * @return void
      */
     public function handle(TagRepository $tags)

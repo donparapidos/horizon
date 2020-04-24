@@ -1,6 +1,6 @@
 <?php
 
-namespace Vzool\Horizon\Contracts;
+namespace Donparapidos\Horizon\Contracts;
 
 interface HorizonCommandQueue
 {

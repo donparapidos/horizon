@@ -1,11 +1,11 @@
 <?php
 
-namespace Vzool\Horizon\Console;
+namespace Donparapidos\Horizon\Console;
 
 use Exception;
 use Illuminate\Console\Command;
-use Vzool\Horizon\SupervisorFactory;
-use Vzool\Horizon\SupervisorOptions;
+use Donparapidos\Horizon\SupervisorFactory;
+use Donparapidos\Horizon\SupervisorOptions;
 
 class SupervisorCommand extends Command
 {
@@ -68,7 +68,7 @@ class SupervisorCommand extends Command
     /**
      * Start the given supervisor.
      *
-     * @param  \Vzool\Horizon\Supervisor  $supervisor
+     * @param  \Donparapidos\Horizon\Supervisor  $supervisor
      * @return void
      */
     protected function start($supervisor)
@@ -89,7 +89,7 @@ class SupervisorCommand extends Command
     /**
      * Get the supervisor options.
      *
-     * @return \Vzool\Horizon\SupervisorOptions
+     * @return \Donparapidos\Horizon\SupervisorOptions
      */
     protected function supervisorOptions()
     {

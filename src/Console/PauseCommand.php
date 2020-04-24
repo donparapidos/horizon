@@ -1,11 +1,11 @@
 <?php
 
-namespace Vzool\Horizon\Console;
+namespace Donparapidos\Horizon\Console;
 
 use Illuminate\Support\Str;
 use Illuminate\Console\Command;
-use Vzool\Horizon\MasterSupervisor;
-use Vzool\Horizon\Contracts\MasterSupervisorRepository;
+use Donparapidos\Horizon\MasterSupervisor;
+use Donparapidos\Horizon\Contracts\MasterSupervisorRepository;
 
 class PauseCommand extends Command
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Vzool\Horizon\Tests\Feature;
+namespace Donparapidos\Horizon\Tests\Feature;
 
-use Vzool\Horizon\Jobs\MonitorTag;
+use Donparapidos\Horizon\Jobs\MonitorTag;
 use Illuminate\Support\Facades\Queue;
 use Illuminate\Support\Facades\Redis;
-use Vzool\Horizon\Tests\IntegrationTest;
-use Vzool\Horizon\Jobs\StopMonitoringTag;
-use Vzool\Horizon\Contracts\TagRepository;
+use Donparapidos\Horizon\Tests\IntegrationTest;
+use Donparapidos\Horizon\Jobs\StopMonitoringTag;
+use Donparapidos\Horizon\Contracts\TagRepository;
 
 class MonitoringTest extends IntegrationTest
 {

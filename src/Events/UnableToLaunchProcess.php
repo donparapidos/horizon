@@ -1,22 +1,22 @@
 <?php
 
-namespace Vzool\Horizon\Events;
+namespace Donparapidos\Horizon\Events;
 
-use Vzool\Horizon\WorkerProcess;
+use Donparapidos\Horizon\WorkerProcess;
 
 class UnableToLaunchProcess
 {
     /**
      * The worker process instance.
      *
-     * @var \Vzool\Horizon\WorkerProcess
+     * @var \Donparapidos\Horizon\WorkerProcess
      */
     public $process;
 
     /**
      * Create a new event instance.
      *
-     * @param  \Vzool\Horizon\WorkerProcess  $process
+     * @param  \Donparapidos\Horizon\WorkerProcess  $process
      * @return void
      */
     public function __construct(WorkerProcess $process)

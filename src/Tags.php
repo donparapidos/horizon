@@ -1,6 +1,6 @@
 <?php
 
-namespace Vzool\Horizon;
+namespace Donparapidos\Horizon;
 
 use stdClass;
 use ReflectionClass;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Vzool\Horizon\Tests\Feature\Fakes;
+namespace Donparapidos\Horizon\Tests\Feature\Fakes;
 
 class FakePool
 {

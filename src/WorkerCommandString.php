@@ -1,6 +1,6 @@
 <?php
 
-namespace Vzool\Horizon;
+namespace Donparapidos\Horizon;
 
 class WorkerCommandString
 {
@@ -14,7 +14,7 @@ class WorkerCommandString
     /**
      * Get the command-line representation of the options for a worker.
      *
-     * @param  \Vzool\Horizon\SupervisorOptions  $options
+     * @param  \Donparapidos\Horizon\SupervisorOptions  $options
      * @return string
      */
     public static function fromOptions(SupervisorOptions $options)
@@ -31,7 +31,7 @@ class WorkerCommandString
     /**
      * Get the additional option string for the command.
      *
-     * @param  \Vzool\Horizon\SupervisorOptions  $options
+     * @param  \Donparapidos\Horizon\SupervisorOptions  $options
      * @return string
      */
     public static function toOptionsString(SupervisorOptions $options)

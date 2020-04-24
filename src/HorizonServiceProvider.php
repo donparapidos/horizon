@@ -1,12 +1,12 @@
 <?php
 
-namespace Vzool\Horizon;
+namespace Donparapidos\Horizon;
 
 use Illuminate\Queue\QueueManager;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Contracts\Events\Dispatcher;
-use Vzool\Horizon\Connectors\RedisConnector;
+use Donparapidos\Horizon\Connectors\RedisConnector;
 
 class HorizonServiceProvider extends ServiceProvider
 {
@@ -50,7 +50,7 @@ class HorizonServiceProvider extends ServiceProvider
     {
         Route::group([
             'prefix' => config('horizon.uri', 'horizon'),
-            'namespace' => 'Vzool\Horizon\Http\Controllers',
+            'namespace' => 'Donparapidos\Horizon\Http\Controllers',
             'middleware' => config('horizon.middleware', 'web'),
         ], function () {
             $this->loadRoutesFrom(__DIR__.'/../routes/web.php');

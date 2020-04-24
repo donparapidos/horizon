@@ -1,8 +1,8 @@
 <?php
 
-namespace Vzool\Horizon\Contracts;
+namespace Donparapidos\Horizon\Contracts;
 
-use Vzool\Horizon\JobPayload;
+use Donparapidos\Horizon\JobPayload;
 use Illuminate\Support\Collection;
 
 interface JobRepository
@@ -79,7 +79,7 @@ interface JobRepository
      *
      * @param  string  $connection
      * @param  string  $queue
-     * @param  \Vzool\Horizon\JobPayload  $payload
+     * @param  \Donparapidos\Horizon\JobPayload  $payload
      * @return void
      */
     public function pushed($connection, $queue, JobPayload $payload);
@@ -89,7 +89,7 @@ interface JobRepository
      *
      * @param  string  $connection
      * @param  string  $queue
-     * @param  \Vzool\Horizon\JobPayload  $payload
+     * @param  \Donparapidos\Horizon\JobPayload  $payload
      * @return void
      */
     public function reserved($connection, $queue, JobPayload $payload);
@@ -99,7 +99,7 @@ interface JobRepository
      *
      * @param  string  $connection
      * @param  string  $queue
-     * @param  \Vzool\Horizon\JobPayload  $payload
+     * @param  \Donparapidos\Horizon\JobPayload  $payload
      * @return void
      */
     public function released($connection, $queue, JobPayload $payload);
@@ -109,7 +109,7 @@ interface JobRepository
      *
      * @param  string  $connection
      * @param  string  $queue
-     * @param  \Vzool\Horizon\JobPayload  $payload
+     * @param  \Donparapidos\Horizon\JobPayload  $payload
      * @return void
      */
     public function remember($connection, $queue, JobPayload $payload);
@@ -127,7 +127,7 @@ interface JobRepository
     /**
      * Handle the storage of a completed job.
      *
-     * @param  \Vzool\Horizon\JobPayload  $payload
+     * @param  \Donparapidos\Horizon\JobPayload  $payload
      * @param  bool  $failed
      * @return void
      */
@@ -169,7 +169,7 @@ interface JobRepository
      * @param  \Exception  $exception
      * @param  string  $connection
      * @param  string  $queue
-     * @param  \Vzool\Horizon\JobPayload  $payload
+     * @param  \Donparapidos\Horizon\JobPayload  $payload
      * @return void
      */
     public function failed($exception, $connection, $queue, JobPayload $payload);

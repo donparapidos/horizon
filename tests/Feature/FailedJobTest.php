@@ -1,12 +1,12 @@
 <?php
 
-namespace Vzool\Horizon\Tests\Feature;
+namespace Donparapidos\Horizon\Tests\Feature;
 
 use Illuminate\Support\Facades\Queue;
 use Illuminate\Support\Facades\Redis;
-use Vzool\Horizon\Tests\IntegrationTest;
-use Vzool\Horizon\Contracts\JobRepository;
-use Vzool\Horizon\Contracts\TagRepository;
+use Donparapidos\Horizon\Tests\IntegrationTest;
+use Donparapidos\Horizon\Contracts\JobRepository;
+use Donparapidos\Horizon\Contracts\TagRepository;
 
 class FailedJobTest extends IntegrationTest
 {

@@ -1,23 +1,23 @@
 <?php
 
-namespace Vzool\Horizon;
+namespace Donparapidos\Horizon;
 
-use Vzool\Horizon\Contracts\SupervisorRepository;
-use Vzool\Horizon\Contracts\MasterSupervisorRepository;
+use Donparapidos\Horizon\Contracts\SupervisorRepository;
+use Donparapidos\Horizon\Contracts\MasterSupervisorRepository;
 
 class ProcessInspector
 {
     /**
      * The command executor.
      *
-     * @var \Vzool\Horizon\Exec
+     * @var \Donparapidos\Horizon\Exec
      */
     public $exec;
 
     /**
      * Create a new process inspector instance.
      *
-     * @param  \Vzool\Horizon\Exec  $exec
+     * @param  \Donparapidos\Horizon\Exec  $exec
      * @return void
      */
     public function __construct(Exec $exec)

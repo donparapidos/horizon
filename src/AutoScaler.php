@@ -1,9 +1,9 @@
 <?php
 
-namespace Vzool\Horizon;
+namespace Donparapidos\Horizon;
 
 use Illuminate\Support\Collection;
-use Vzool\Horizon\Contracts\MetricsRepository;
+use Donparapidos\Horizon\Contracts\MetricsRepository;
 use Illuminate\Contracts\Queue\Factory as QueueFactory;
 
 class AutoScaler
@@ -18,7 +18,7 @@ class AutoScaler
     /**
      * The metrics repository implementation.
      *
-     * @var \Vzool\Horizon\Contracts\MetricsRepository
+     * @var \Donparapidos\Horizon\Contracts\MetricsRepository
      */
     public $metrics;
 
@@ -26,7 +26,7 @@ class AutoScaler
      * Create a new auto-scaler instance.
      *
      * @param  \Illuminate\Contracts\Queue\Factory  $queue
-     * @param  \Vzool\Horizon\Contracts\MetricsRepository  $metrics
+     * @param  \Donparapidos\Horizon\Contracts\MetricsRepository  $metrics
      * @return void
      */
     public function __construct(QueueFactory $queue, MetricsRepository $metrics)
@@ -38,7 +38,7 @@ class AutoScaler
     /**
      * Balance the workers on the given supervisor.
      *
-     * @param  \Vzool\Horizon\Supervisor  $supervisor
+     * @param  \Donparapidos\Horizon\Supervisor  $supervisor
      * @return void
      */
     public function scale(Supervisor $supervisor)
@@ -57,7 +57,7 @@ class AutoScaler
     /**
      * Get the process pools keyed by their queue name.
      *
-     * @param  \Vzool\Horizon\Supervisor  $supervisor
+     * @param  \Donparapidos\Horizon\Supervisor  $supervisor
      * @return \Illuminate\Support\Collection
      */
     protected function poolsByQueue(Supervisor $supervisor)
@@ -70,7 +70,7 @@ class AutoScaler
     /**
      * Get the times in milliseconds needed to clear the queues.
      *
-     * @param  \Vzool\Horizon\Supervisor  $supervisor
+     * @param  \Donparapidos\Horizon\Supervisor  $supervisor
      * @param  \Illuminate\Support\Collection  $pools
      * @return \Illuminate\Support\Collection
      */
@@ -86,7 +86,7 @@ class AutoScaler
     /**
      * Get the number of workers needed per queue for proper balance.
      *
-     * @param  \Vzool\Horizon\Supervisor  $supervisor
+     * @param  \Donparapidos\Horizon\Supervisor  $supervisor
      * @param  \Illuminate\Support\Collection  $timeToClear
      * @return \Illuminate\Support\Collection
      */
@@ -104,8 +104,8 @@ class AutoScaler
     /**
      * Scale the given pool to the recommended number of workers.
      *
-     * @param  \Vzool\Horizon\Supervisor  $supervisor
-     * @param  \Vzool\Horizon\ProcessPool  $pool
+     * @param  \Donparapidos\Horizon\Supervisor  $supervisor
+     * @param  \Donparapidos\Horizon\ProcessPool  $pool
      * @param  float  $workers
      * @return void
      */
@@ -127,7 +127,7 @@ class AutoScaler
     /**
      * Determine if adding another process would exceed max process limit.
      *
-     * @param  \Vzool\Horizon\Supervisor  $supervisor
+     * @param  \Donparapidos\Horizon\Supervisor  $supervisor
      * @return bool
      */
     protected function wouldNotExceedMaxProcesses(Supervisor $supervisor)

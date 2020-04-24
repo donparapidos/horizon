@@ -1,9 +1,9 @@
 <?php
 
-namespace Vzool\Horizon;
+namespace Donparapidos\Horizon;
 
-use Vzool\Horizon\Contracts\MetricsRepository;
-use Vzool\Horizon\Contracts\SupervisorRepository;
+use Donparapidos\Horizon\Contracts\MetricsRepository;
+use Donparapidos\Horizon\Contracts\SupervisorRepository;
 use Illuminate\Contracts\Queue\Factory as QueueFactory;
 
 class WaitTimeCalculator
@@ -18,14 +18,14 @@ class WaitTimeCalculator
     /**
      * The supervisor repository implementation.
      *
-     * @var \Vzool\Horizon\Contracts\SupervisorRepository
+     * @var \Donparapidos\Horizon\Contracts\SupervisorRepository
      */
     public $supervisors;
 
     /**
      * The metrics repository implementation.
      *
-     * @var \Vzool\Horizon\Contracts\MetricsRepository
+     * @var \Donparapidos\Horizon\Contracts\MetricsRepository
      */
     public $metrics;
 
@@ -33,8 +33,8 @@ class WaitTimeCalculator
      * Create a new calculator instance.
      *
      * @param  \Illuminate\Contracts\Queue\Factory  $queue
-     * @param  \Vzool\Horizon\Contracts\SupervisorRepository  $supervisors
-     * @param  \Vzool\Horizon\Contracts\MetricsRepository  $metrics
+     * @param  \Donparapidos\Horizon\Contracts\SupervisorRepository  $supervisors
+     * @param  \Donparapidos\Horizon\Contracts\MetricsRepository  $metrics
      * @return void
      */
     public function __construct(QueueFactory $queue,

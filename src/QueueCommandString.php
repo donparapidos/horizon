@@ -1,13 +1,13 @@
 <?php
 
-namespace Vzool\Horizon;
+namespace Donparapidos\Horizon;
 
 class QueueCommandString
 {
     /**
      * Get the additional option string for the command.
      *
-     * @param  \Vzool\Horizon\SupervisorOptions  $options
+     * @param  \Donparapidos\Horizon\SupervisorOptions  $options
      * @param  bool  $paused
      * @return string
      */

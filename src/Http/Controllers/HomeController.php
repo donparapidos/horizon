@@ -1,6 +1,6 @@
 <?php
 
-namespace Vzool\Horizon\Http\Controllers;
+namespace Donparapidos\Horizon\Http\Controllers;
 
 class HomeController extends Controller
 {

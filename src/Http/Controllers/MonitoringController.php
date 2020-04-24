@@ -1,34 +1,34 @@
 <?php
 
-namespace Vzool\Horizon\Http\Controllers;
+namespace Donparapidos\Horizon\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Vzool\Horizon\Jobs\MonitorTag;
-use Vzool\Horizon\Jobs\StopMonitoringTag;
-use Vzool\Horizon\Contracts\JobRepository;
-use Vzool\Horizon\Contracts\TagRepository;
+use Donparapidos\Horizon\Jobs\MonitorTag;
+use Donparapidos\Horizon\Jobs\StopMonitoringTag;
+use Donparapidos\Horizon\Contracts\JobRepository;
+use Donparapidos\Horizon\Contracts\TagRepository;
 
 class MonitoringController extends Controller
 {
     /**
      * The job repository implementation.
      *
-     * @var \Vzool\Horizon\Contracts\JobRepository
+     * @var \Donparapidos\Horizon\Contracts\JobRepository
      */
     public $jobs;
 
     /**
      * The tag repository implementation.
      *
-     * @var \Vzool\Horizon\Contracts\TagRepository
+     * @var \Donparapidos\Horizon\Contracts\TagRepository
      */
     public $tags;
 
     /**
      * Create a new controller instance.
      *
-     * @param  \Vzool\Horizon\Contracts\JobRepository  $jobs
-     * @param  \Vzool\Horizon\Contracts\TagRepository  $tags
+     * @param  \Donparapidos\Horizon\Contracts\JobRepository  $jobs
+     * @param  \Donparapidos\Horizon\Contracts\TagRepository  $tags
      * @return void
      */
     public function __construct(JobRepository $jobs, TagRepository $tags)

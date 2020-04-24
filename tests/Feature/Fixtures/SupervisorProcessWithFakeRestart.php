@@ -1,8 +1,8 @@
 <?php
 
-namespace Vzool\Horizon\Tests\Feature\Fixtures;
+namespace Donparapidos\Horizon\Tests\Feature\Fixtures;
 
-use Vzool\Horizon\SupervisorProcess;
+use Donparapidos\Horizon\SupervisorProcess;
 
 class SupervisorProcessWithFakeRestart extends SupervisorProcess
 {

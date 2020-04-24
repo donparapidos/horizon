@@ -1,10 +1,10 @@
 <?php
 
-namespace Vzool\Horizon\Tests\Feature;
+namespace Donparapidos\Horizon\Tests\Feature;
 
-use Vzool\Horizon\Horizon;
-use Vzool\Horizon\Tests\IntegrationTest;
-use Vzool\Horizon\Http\Middleware\Authenticate;
+use Donparapidos\Horizon\Horizon;
+use Donparapidos\Horizon\Tests\IntegrationTest;
+use Donparapidos\Horizon\Http\Middleware\Authenticate;
 
 class AuthTest extends IntegrationTest
 {

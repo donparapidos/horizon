@@ -1,6 +1,6 @@
 <?php
 
-namespace Vzool\Horizon\Console;
+namespace Donparapidos\Horizon\Console;
 
 use Illuminate\Queue\Console\WorkCommand as BaseWorkCommand;
 

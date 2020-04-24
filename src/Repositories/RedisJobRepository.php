@@ -1,12 +1,12 @@
 <?php
 
-namespace Vzool\Horizon\Repositories;
+namespace Donparapidos\Horizon\Repositories;
 
 use Cake\Chronos\Chronos;
 use Illuminate\Support\Arr;
-use Vzool\Horizon\JobPayload;
+use Donparapidos\Horizon\JobPayload;
 use Illuminate\Support\Collection;
-use Vzool\Horizon\Contracts\JobRepository;
+use Donparapidos\Horizon\Contracts\JobRepository;
 use Illuminate\Contracts\Redis\Factory as RedisFactory;
 
 class RedisJobRepository implements JobRepository
@@ -210,7 +210,7 @@ class RedisJobRepository implements JobRepository
      *
      * @param  string  $connection
      * @param  string  $queue
-     * @param  \Vzool\Horizon\JobPayload  $payload
+     * @param  \Donparapidos\Horizon\JobPayload  $payload
      * @return void
      */
     public function pushed($connection, $queue, JobPayload $payload)
@@ -254,7 +254,7 @@ class RedisJobRepository implements JobRepository
      *
      * @param  string  $connection
      * @param  string  $queue
-     * @param  \Vzool\Horizon\JobPayload  $payload
+     * @param  \Donparapidos\Horizon\JobPayload  $payload
      * @return void
      */
     public function reserved($connection, $queue, JobPayload $payload)
@@ -274,7 +274,7 @@ class RedisJobRepository implements JobRepository
      *
      * @param  string  $connection
      * @param  string  $queue
-     * @param  \Vzool\Horizon\JobPayload  $payload
+     * @param  \Donparapidos\Horizon\JobPayload  $payload
      * @return void
      */
     public function released($connection, $queue, JobPayload $payload)
@@ -293,7 +293,7 @@ class RedisJobRepository implements JobRepository
      *
      * @param  string  $connection
      * @param  string  $queue
-     * @param  \Vzool\Horizon\JobPayload  $payload
+     * @param  \Donparapidos\Horizon\JobPayload  $payload
      * @return void
      */
     public function remember($connection, $queue, JobPayload $payload)
@@ -341,7 +341,7 @@ class RedisJobRepository implements JobRepository
     /**
      * Handle the storage of a completed job.
      *
-     * @param  \Vzool\Horizon\JobPayload  $payload
+     * @param  \Donparapidos\Horizon\JobPayload  $payload
      * @param  bool  $failed
      * @return void
      */
@@ -376,7 +376,7 @@ class RedisJobRepository implements JobRepository
     /**
      * Update the retry status of a job's parent.
      *
-     * @param  \Vzool\Horizon\JobPayload  $payload
+     * @param  \Donparapidos\Horizon\JobPayload  $payload
      * @param  bool  $failed
      * @return void
      */
@@ -396,7 +396,7 @@ class RedisJobRepository implements JobRepository
     /**
      * Update the retry status of a job in a retry array.
      *
-     * @param  \Vzool\Horizon\JobPayload  $payload
+     * @param  \Donparapidos\Horizon\JobPayload  $payload
      * @param  array  $retries
      * @param  bool  $failed
      * @return array
@@ -474,7 +474,7 @@ class RedisJobRepository implements JobRepository
      * @param  string  $exception
      * @param  string  $connection
      * @param  string  $queue
-     * @param  \Vzool\Horizon\JobPayload  $payload
+     * @param  \Donparapidos\Horizon\JobPayload  $payload
      * @return void
      */
     public function failed($exception, $connection, $queue, JobPayload $payload)

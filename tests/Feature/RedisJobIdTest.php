@@ -1,9 +1,9 @@
 <?php
 
-namespace Vzool\Horizon\Tests\Feature;
+namespace Donparapidos\Horizon\Tests\Feature;
 
-use Vzool\Horizon\JobId;
-use Vzool\Horizon\Tests\IntegrationTest;
+use Donparapidos\Horizon\JobId;
+use Donparapidos\Horizon\Tests\IntegrationTest;
 
 class JobIdTest extends IntegrationTest
 {

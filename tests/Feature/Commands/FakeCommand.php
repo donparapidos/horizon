@@ -1,8 +1,8 @@
 <?php
 
-namespace Vzool\Horizon\Tests\Feature\Commands;
+namespace Donparapidos\Horizon\Tests\Feature\Commands;
 
-use Vzool\Horizon\Supervisor;
+use Donparapidos\Horizon\Supervisor;
 
 class FakeCommand
 {

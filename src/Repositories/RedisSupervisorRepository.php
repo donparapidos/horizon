@@ -1,11 +1,11 @@
 <?php
 
-namespace Vzool\Horizon\Repositories;
+namespace Donparapidos\Horizon\Repositories;
 
 use Cake\Chronos\Chronos;
 use Illuminate\Support\Arr;
-use Vzool\Horizon\Supervisor;
-use Vzool\Horizon\Contracts\SupervisorRepository;
+use Donparapidos\Horizon\Supervisor;
+use Donparapidos\Horizon\Contracts\SupervisorRepository;
 use Illuminate\Contracts\Redis\Factory as RedisFactory;
 
 class RedisSupervisorRepository implements SupervisorRepository
@@ -104,7 +104,7 @@ class RedisSupervisorRepository implements SupervisorRepository
     /**
      * Update the information about the given supervisor process.
      *
-     * @param  \Vzool\Horizon\Supervisor  $supervisor
+     * @param  \Donparapidos\Horizon\Supervisor  $supervisor
      * @return void
      */
     public function update(Supervisor $supervisor)

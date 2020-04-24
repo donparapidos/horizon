@@ -18,7 +18,7 @@ All of your worker configuration is stored in a single, simple configuration fil
 1. Install by composer (required *PHP 7.1+*)
 
 ```bash
-composer require vzool/horizon
+composer require donparapidos/horizon
 ```
 
 2. Add the following to `config/app.php` 
@@ -27,13 +27,13 @@ composer require vzool/horizon
 
     // ..
 
-    Vzool\Horizon\HorizonServiceProvider::class,
+    Donparapidos\Horizon\HorizonServiceProvider::class,
 ],
 'aliases' => [
 
     // ..
 
-    "Horizon" => Vzool\Horizon\Horizon::class,
+    "Horizon" => Donparapidos\Horizon\Horizon::class,
 ]
 ```
 
@@ -54,7 +54,7 @@ namespace App\Providers;
 
 // ..
 
-use Vzool\Horizon\Horizon;
+use Donparapidos\Horizon\Horizon;
 
 class AppServiceProvider extends ServiceProvider
 {

@@ -1,15 +1,15 @@
 <?php
 
-namespace Vzool\Horizon\Http\Controllers;
+namespace Donparapidos\Horizon\Http\Controllers;
 
-use Vzool\Horizon\Contracts\WorkloadRepository;
+use Donparapidos\Horizon\Contracts\WorkloadRepository;
 
 class WorkloadController extends Controller
 {
     /**
      * Get the current queue workload for the application.
      *
-     * @param  \Vzool\Horizon\Contracts\WorkloadRepository  $workload
+     * @param  \Donparapidos\Horizon\Contracts\WorkloadRepository  $workload
      * @return array
      */
     public function index(WorkloadRepository $workload)

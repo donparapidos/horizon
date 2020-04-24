@@ -1,15 +1,15 @@
 <?php
 
-namespace Vzool\Horizon\SupervisorCommands;
+namespace Donparapidos\Horizon\SupervisorCommands;
 
-use Vzool\Horizon\Supervisor;
+use Donparapidos\Horizon\Supervisor;
 
 class Scale
 {
     /**
      * Process the command.
      *
-     * @param  \Vzool\Horizon\Supervisor  $supervisor
+     * @param  \Donparapidos\Horizon\Supervisor  $supervisor
      * @param  array  $options
      * @return void
      */

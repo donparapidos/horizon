@@ -1,10 +1,10 @@
 <?php
 
-namespace Vzool\Horizon\MasterSupervisorCommands;
+namespace Donparapidos\Horizon\MasterSupervisorCommands;
 
-use Vzool\Horizon\MasterSupervisor;
-use Vzool\Horizon\SupervisorOptions;
-use Vzool\Horizon\SupervisorProcess;
+use Donparapidos\Horizon\MasterSupervisor;
+use Donparapidos\Horizon\SupervisorOptions;
+use Donparapidos\Horizon\SupervisorProcess;
 use Symfony\Component\Process\Process;
 
 class AddSupervisor
@@ -12,7 +12,7 @@ class AddSupervisor
     /**
      * Process the command.
      *
-     * @param  \Vzool\Horizon\MasterSupervisor  $master
+     * @param  \Donparapidos\Horizon\MasterSupervisor  $master
      * @param  array  $options
      * @return void
      */
@@ -30,8 +30,8 @@ class AddSupervisor
     /**
      * Create the Symfony process instance.
      *
-     * @param  \Vzool\Horizon\MasterSupervisor  $master
-     * @param  \Vzool\Horizon\SupervisorOptions  $options
+     * @param  \Donparapidos\Horizon\MasterSupervisor  $master
+     * @param  \Donparapidos\Horizon\SupervisorOptions  $options
      * @return \Symfony\Component\Process\Process
      */
     protected function createProcess(MasterSupervisor $master, SupervisorOptions $options)

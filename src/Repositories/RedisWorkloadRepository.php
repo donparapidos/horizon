@@ -1,12 +1,12 @@
 <?php
 
-namespace Vzool\Horizon\Repositories;
+namespace Donparapidos\Horizon\Repositories;
 
-use Vzool\Horizon\WaitTimeCalculator;
-use Vzool\Horizon\Contracts\WorkloadRepository;
-use Vzool\Horizon\Contracts\SupervisorRepository;
+use Donparapidos\Horizon\WaitTimeCalculator;
+use Donparapidos\Horizon\Contracts\WorkloadRepository;
+use Donparapidos\Horizon\Contracts\SupervisorRepository;
 use Illuminate\Contracts\Queue\Factory as QueueFactory;
-use Vzool\Horizon\Contracts\MasterSupervisorRepository;
+use Donparapidos\Horizon\Contracts\MasterSupervisorRepository;
 
 class RedisWorkloadRepository implements WorkloadRepository
 {
@@ -20,21 +20,21 @@ class RedisWorkloadRepository implements WorkloadRepository
     /**
      * The wait time calculator instance.
      *
-     * @var \Vzool\Horizon\WaitTimeCalculator
+     * @var \Donparapidos\Horizon\WaitTimeCalculator
      */
     public $waitTime;
 
     /**
      * The master supervisor repository implementation.
      *
-     * @var \Vzool\Horizon\Contracts\MasterSupervisorRepository
+     * @var \Donparapidos\Horizon\Contracts\MasterSupervisorRepository
      */
     private $masters;
 
     /**
      * The supervisor repository implementation.
      *
-     * @var \Vzool\Horizon\Contracts\SupervisorRepository
+     * @var \Donparapidos\Horizon\Contracts\SupervisorRepository
      */
     private $supervisors;
 
@@ -42,9 +42,9 @@ class RedisWorkloadRepository implements WorkloadRepository
      * Create a new repository instance.
      *
      * @param  \Illuminate\Contracts\Queue\Factory  $queue
-     * @param  \Vzool\Horizon\WaitTimeCalculator  $waitTime
-     * @param  \Vzool\Horizon\Contracts\MasterSupervisorRepository  $masters
-     * @param  \Vzool\Horizon\Contracts\SupervisorRepository  $supervisors
+     * @param  \Donparapidos\Horizon\WaitTimeCalculator  $waitTime
+     * @param  \Donparapidos\Horizon\Contracts\MasterSupervisorRepository  $masters
+     * @param  \Donparapidos\Horizon\Contracts\SupervisorRepository  $supervisors
      * @return void
      */
     public function __construct(QueueFactory $queue, WaitTimeCalculator $waitTime,

@@ -1,23 +1,23 @@
 <?php
 
-namespace Vzool\Horizon\Http\Controllers;
+namespace Donparapidos\Horizon\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Vzool\Horizon\Contracts\JobRepository;
+use Donparapidos\Horizon\Contracts\JobRepository;
 
 class RecentJobsController extends Controller
 {
     /**
      * The job repository implementation.
      *
-     * @var \Vzool\Horizon\Contracts\JobRepository
+     * @var \Donparapidos\Horizon\Contracts\JobRepository
      */
     public $jobs;
 
     /**
      * Create a new controller instance.
      *
-     * @param  \Vzool\Horizon\Contracts\JobRepository  $jobs
+     * @param  \Donparapidos\Horizon\Contracts\JobRepository  $jobs
      * @return void
      */
     public function __construct(JobRepository $jobs)

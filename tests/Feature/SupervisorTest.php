@@ -1,26 +1,26 @@
 <?php
 
-namespace Vzool\Horizon\Tests\Feature;
+namespace Donparapidos\Horizon\Tests\Feature;
 
 use Mockery;
 use Cake\Chronos\Chronos;
-use Vzool\Horizon\PhpBinary;
-use Vzool\Horizon\AutoScaler;
-use Vzool\Horizon\Supervisor;
+use Donparapidos\Horizon\PhpBinary;
+use Donparapidos\Horizon\AutoScaler;
+use Donparapidos\Horizon\Supervisor;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Queue;
 use Illuminate\Support\Facades\Redis;
-use Vzool\Horizon\MasterSupervisor;
-use Vzool\Horizon\SupervisorOptions;
-use Vzool\Horizon\WorkerCommandString;
-use Vzool\Horizon\SystemProcessCounter;
-use Vzool\Horizon\Tests\IntegrationTest;
-use Vzool\Horizon\Contracts\JobRepository;
-use Vzool\Horizon\SupervisorCommands\Scale;
+use Donparapidos\Horizon\MasterSupervisor;
+use Donparapidos\Horizon\SupervisorOptions;
+use Donparapidos\Horizon\WorkerCommandString;
+use Donparapidos\Horizon\SystemProcessCounter;
+use Donparapidos\Horizon\Tests\IntegrationTest;
+use Donparapidos\Horizon\Contracts\JobRepository;
+use Donparapidos\Horizon\SupervisorCommands\Scale;
 use Illuminate\Contracts\Debug\ExceptionHandler;
-use Vzool\Horizon\Contracts\HorizonCommandQueue;
-use Vzool\Horizon\Contracts\SupervisorRepository;
-use Vzool\Horizon\Events\WorkerProcessRestarting;
+use Donparapidos\Horizon\Contracts\HorizonCommandQueue;
+use Donparapidos\Horizon\Contracts\SupervisorRepository;
+use Donparapidos\Horizon\Events\WorkerProcessRestarting;
 
 class SupervisorTest extends IntegrationTest
 {

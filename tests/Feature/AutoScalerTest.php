@@ -1,14 +1,14 @@
 <?php
 
-namespace Vzool\Horizon\Tests\Feature;
+namespace Donparapidos\Horizon\Tests\Feature;
 
 use Mockery;
-use Vzool\Horizon\AutoScaler;
-use Vzool\Horizon\Supervisor;
-use Vzool\Horizon\SupervisorOptions;
-use Vzool\Horizon\SystemProcessCounter;
-use Vzool\Horizon\Tests\IntegrationTest;
-use Vzool\Horizon\Contracts\MetricsRepository;
+use Donparapidos\Horizon\AutoScaler;
+use Donparapidos\Horizon\Supervisor;
+use Donparapidos\Horizon\SupervisorOptions;
+use Donparapidos\Horizon\SystemProcessCounter;
+use Donparapidos\Horizon\Tests\IntegrationTest;
+use Donparapidos\Horizon\Contracts\MetricsRepository;
 use Illuminate\Contracts\Queue\Factory as QueueFactory;
 
 class AutoScalerTest extends IntegrationTest

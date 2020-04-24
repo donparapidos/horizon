@@ -1,8 +1,8 @@
 <?php
 
-namespace Vzool\Horizon\Repositories;
+namespace Donparapidos\Horizon\Repositories;
 
-use Vzool\Horizon\Contracts\TagRepository;
+use Donparapidos\Horizon\Contracts\TagRepository;
 use Illuminate\Contracts\Redis\Factory as RedisFactory;
 
 class RedisTagRepository implements TagRepository

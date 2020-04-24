@@ -1,10 +1,10 @@
 <?php
 
-namespace Vzool\Horizon\Listeners;
+namespace Donparapidos\Horizon\Listeners;
 
 use Cake\Chronos\Chronos;
-use Vzool\Horizon\Contracts\JobRepository;
-use Vzool\Horizon\Events\MasterSupervisorLooped;
+use Donparapidos\Horizon\Contracts\JobRepository;
+use Donparapidos\Horizon\Events\MasterSupervisorLooped;
 
 class TrimRecentJobs
 {
@@ -25,7 +25,7 @@ class TrimRecentJobs
     /**
      * Handle the event.
      *
-     * @param  \Vzool\Horizon\Events\MasterSupervisorLooped  $event
+     * @param  \Donparapidos\Horizon\Events\MasterSupervisorLooped  $event
      * @return void
      */
     public function handle(MasterSupervisorLooped $event)

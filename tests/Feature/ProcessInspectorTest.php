@@ -1,13 +1,13 @@
 <?php
 
-namespace Vzool\Horizon\Tests\Feature;
+namespace Donparapidos\Horizon\Tests\Feature;
 
 use Mockery;
-use Vzool\Horizon\Exec;
-use Vzool\Horizon\ProcessInspector;
-use Vzool\Horizon\Tests\IntegrationTest;
-use Vzool\Horizon\Contracts\SupervisorRepository;
-use Vzool\Horizon\Contracts\MasterSupervisorRepository;
+use Donparapidos\Horizon\Exec;
+use Donparapidos\Horizon\ProcessInspector;
+use Donparapidos\Horizon\Tests\IntegrationTest;
+use Donparapidos\Horizon\Contracts\SupervisorRepository;
+use Donparapidos\Horizon\Contracts\MasterSupervisorRepository;
 
 class ProcessInspectorTest extends IntegrationTest
 {
