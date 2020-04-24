@@ -1,5 +1,5 @@
 {
-    "name": "vzool/horizon",
+    "name": "donparapidos/horizon",
     "description": "Dashboard and code-driven configuration for Laravel queues.",
     "keywords": [
         "laravel",
@@ -14,6 +14,10 @@
         {
             "name": "Abdelaziz Elrashed",
             "email": "aeemh.sdn@gmail.com"
+        },
+        {
+            "name": "Goran Parapid",
+            "email": "goran.parapid@gmail.com"
         }
     ],
     "require": {
